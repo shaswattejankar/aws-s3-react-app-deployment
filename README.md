@@ -17,6 +17,6 @@ This code uses boto3 implementation to perform React App Deployment on S3. It do
 
 + Make sure the public acess is allowed for the bucket and ACLs are enabled while creation
 
-+ provide your own bucket name and github url in place of YOUR_BUCKET_NAME & YOUR_GITHUB_REPO_URL
++ provide your own bucket name and github url in place of <code>YOUR_BUCKET_NAME</code> & <code>YOUR_GITHUB_REPO_URL</code>
 
 The temporary deployment link is [here](http://0518-react-bucket.s3-website.us-east-2.amazonaws.com/)
