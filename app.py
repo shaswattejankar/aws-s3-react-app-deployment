@@ -8,8 +8,8 @@ import mimetypes
 s3_client = boto3.client('s3')
 
 # Set the bucket name and GitHub repository URL
-bucket_name = '0518-react-bucket'
-repo_url = 'https://github.com/shaswattejankar/aws-react-app-with-build-s3-deployment'
+bucket_name = YOUR_BUCKET_NAME
+repo_url = YOUR_GITHUB_REPO_URL
 folder = '/build'
 local_repo_path = './tmp/basic_app/'
 
